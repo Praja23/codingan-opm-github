@@ -14,7 +14,7 @@ header {
   color: #000000;
   padding: 7px;
   text-align: center;
-  position: relative; /* Tambahkan ini untuk memungkinkan posisi absolut logo */
+  position: relative; 
 }
 
 .logo {
@@ -27,7 +27,7 @@ header {
 }
 
 .logo-photo {
-  max-width: 150px; /* Sesuaikan ukuran sesuai kebutuhan Anda */
+  max-width: 150px;
   border-radius: 50%;
   margin-left: -50px;
 }
@@ -35,19 +35,19 @@ header {
 .logo-text {
   display: flex;
   flex-direction: column;
-  margin-left: -50px; /* Sesuaikan jarak antara logo dan teks */
+  margin-left: -50px; 
 }
 
 .logo-text .war {
   margin: 0;
   font-size: 20px;
-  color: #000000; /* Warna hitam untuk "WAR" */
+  color: #000000; 
 }
 
 .logo-text .min {
   margin: 0;
   font-size: 15px;
-  color: #ffffff; /* Warna putih untuk "MIN" */
+  color: #ffffff; 
 }
 
 nav ul {
@@ -96,12 +96,12 @@ section {
 
 .history-content {
   display: flex;
-  align-items: center; /* Menyelaraskan gambar dan teks di tengah vertikal */
+  align-items: center; 
 }
 
 .history-photo {
-  max-width: 250px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
-  margin-right: 20px; /* Jarak antara gambar dan teks */
+  max-width: 250px; 
+  margin-right: 20px; 
   border-radius: 5px;
 }
 .menu {
@@ -138,7 +138,7 @@ section {
 
 .menu-item h3 {
   margin: 5px;
-  color: #000000; /* Tambahkan ini untuk mengubah warna font menjadi hitam */
+  color: #000000; 
 }
 
 .menu-item .harga {
@@ -148,7 +148,7 @@ section {
 }
 
 .location-photo {
-  max-width: 20%; /* Sesuaikan ukuran sesuai kebutuhan Anda */
+  max-width: 20%; 
   border-radius: 5px;
   transition: transform 0.2s ease-in-out;
 }
@@ -177,13 +177,13 @@ section {
 }
 
 .contact-icon {
-  width: 24px; /* Sesuaikan ukuran gambar */
-  height: 24px; /* Sesuaikan ukuran gambar */
-  margin-right: 10px; /* Jarak antara gambar dan teks */
+  width: 24px; 
+  height: 24px; 
+  margin-right: 10px; 
 }
 
 .baku-tumbuk {
-  margin-top: 55px; /* Sesuaikan nilai margin sesuai keinginan */
+  margin-top: 55px; 
 }
 
 #instagram {
@@ -203,7 +203,7 @@ section {
 }
 
 .instagram-photo {
-  max-width: 100px; /* Sesuaikan ukuran sesuai kebutuhan Anda */
+  max-width: 100px; 
   border-radius: 10px;
   transition: transform 0.2s ease-in-out;
 }
@@ -213,33 +213,33 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Media Query untuk tampilan mobile */
+
 @media (max-width: 768px) {
   header {
-    padding: 10px; /* Adjust padding for mobile */
-    text-align: left; /* Align text to the left */
+    padding: 10px; 
+    text-align: left; 
   }
 
   .logo {
-    position: relative; /* Change to relative for mobile */
-    text-align: left; /* Align logo text to the left */
+    position: relative; 
+    text-align: left; 
   }
 
   .logo-photo {
-    max-width: 100px; /* Reduce logo size for mobile */
+    max-width: 100px; 
   }
 
   .logo-text {
-    margin-left: 0; /* Remove margin for mobile */
+    margin-left: 0; 
   }
 
   nav ul {
-    flex-direction: column; /* Stack navigation items vertically */
-    align-items: center; /* Center items in the column */
-    padding: 0; /* Remove padding */
+    flex-direction: column; 
+    align-items: center; 
+    padding: 0; 
   }
 
   nav ul li {
-    margin: 5px 0; /* Adjust margin for mobile */
+    margin: 5px 0; 
   }
 }
