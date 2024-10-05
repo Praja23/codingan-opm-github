@@ -216,30 +216,64 @@ section {
 
 @media (max-width: 768px) {
   header {
-    padding: 10px; 
-    text-align: left; 
+    padding: 10px;
+    text-align: left;
   }
 
   .logo {
-    position: relative; 
-    text-align: left; 
+    position: relative;
+    text-align: left;
   }
 
   .logo-photo {
-    max-width: 100px; 
+    max-width: 100px;
   }
 
   .logo-text {
-    margin-left: 0; 
+    margin-left: 0;
   }
 
   nav ul {
-    flex-direction: column; 
-    align-items: center; 
-    padding: 0; 
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
   }
 
   nav ul li {
-    margin: 5px 0; 
+    margin: 5px 0;
+  }
+
+  .home-content {
+    flex-direction: column;
+  }
+
+  .home-photo {
+    max-width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  
+  .history-content {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .history-photo {
+    max-width: 100%; 
+    margin: 0 0 20px 0; 
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu-item {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .location-photo {
+    max-width: 100%;
   }
 }
