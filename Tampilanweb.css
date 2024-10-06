@@ -89,6 +89,15 @@ section {
   margin: 20px;
 }
 
+#profil,
+#sejarah {
+  padding: 10px; /* Jarak dalam elemen */
+  margin: 10px 0; /* Mengurangi jarak antar elemen */
+  color: #ffffff;
+  text-align: justify; /* Rata kiri dan kanan */
+  border-radius: 5px; /* Sudut melingkar */
+}
+
 .home-content {
   display: flex;
   align-items: center;
@@ -309,5 +318,11 @@ section {
 
   .location-photo {
     max-width: 60%;
+  }
+
+  #profil,
+  #sejarah {
+    padding: 10px;
+    margin: 10px 0;
   }
 }
