@@ -14,7 +14,7 @@ header {
   color: #000000;
   padding: 7px;
   text-align: center;
-  position: relative;
+  position: relative; 
 }
 
 .logo {
@@ -27,7 +27,7 @@ header {
 }
 
 .logo-photo {
-  max-width: 150px;
+  max-width: 150px; 
   border-radius: 50%;
   margin-left: -50px;
 }
@@ -35,13 +35,13 @@ header {
 .logo-text {
   display: flex;
   flex-direction: column;
-  margin-left: -50px;
+  margin-left: -50px; 
 }
 
 .logo-text .war {
   margin: 0;
   font-size: 20px;
-  color: #000000;
+  color: #000000; 
 }
 
 .logo-text .min {
@@ -85,17 +85,8 @@ section {
 
 .profil-description,
 .history-description {
-  text-align: justify;
-  margin: 20px;
-}
-
-#profil,
-#sejarah {
-  padding: 10px; /* Jarak dalam elemen */
-  margin: 10px 0; /* Mengurangi jarak antar elemen */
-  color: #ffffff;
-  text-align: justify; /* Rata kiri dan kanan */
-  border-radius: 5px; /* Sudut melingkar */
+  text-align: justify; 
+  margin: 20px; 
 }
 
 .home-content {
@@ -111,12 +102,12 @@ section {
 
 .history-content {
   display: flex;
-  align-items: center;
+  align-items: center; 
 }
 
 .history-photo {
-  max-width: 250px;
-  margin-right: 20px;
+  max-width: 250px; 
+  margin-right: 20px; 
   border-radius: 5px;
 }
 .menu {
@@ -163,7 +154,7 @@ section {
 }
 
 .location-photo {
-  max-width: 20%;
+  max-width: 20%; 
   border-radius: 5px;
   transition: transform 0.2s ease-in-out;
 }
@@ -192,13 +183,13 @@ section {
 }
 
 .contact-icon {
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
+  width: 24px; 
+  height: 24px; 
+  margin-right: 10px; 
 }
 
 .baku-tumbuk {
-  margin-top: 55px;
+  margin-top: 55px; 
 }
 
 #instagram {
@@ -218,7 +209,7 @@ section {
 }
 
 .instagram-photo {
-  max-width: 100px;
+  max-width: 100px; 
   border-radius: 10px;
   transition: transform 0.2s ease-in-out;
 }
@@ -231,18 +222,18 @@ section {
 @media (max-width: 768px) {
   header {
     padding: 5px;
-    text-align: center;
+    text-align: center; 
   }
 
   h1 {
-    font-size: 27px;
-    margin: 0;
-    line-height: 2.2;
+    font-size: 27px; 
+    margin: 0; 
+    line-height: 2.2; 
   }
 
   .logo {
-    flex-direction: row;
-    align-items: center;
+    flex-direction: row; 
+    align-items: center; 
     margin-left: 14px;
   }
 
@@ -257,24 +248,28 @@ section {
     margin-top: 34px;
   }
 
+  
   #menu {
-    text-align: left;
-    padding-left: 20px;
+    text-align: left; 
+    padding-left: 20px; 
   }
 
+  
   .logo-text .war {
-    font-size: 15px;
+    font-size: 15px; 
     color: #000000;
   }
 
+  
   .logo-text .min {
-    font-size: 11px;
+    font-size: 11px; 
     color: #ffffff;
   }
 
+  
   .profil-description,
   .history-description {
-    margin: 10px;
+    margin: 10px; 
   }
 
   nav ul {
@@ -318,11 +313,5 @@ section {
 
   .location-photo {
     max-width: 60%;
-  }
-
-  #profil,
-  #sejarah {
-    padding: 10px;
-    margin: 10px 0;
   }
 }
